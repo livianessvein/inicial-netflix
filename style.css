@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('font/netflix-sans-cufonfonts/NetflixSansBold.ttf') format('truetype');
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("assets/background.jpeg") no-repeat;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.idioma {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 0.25em;
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 1.1;
+    height: 30px;
+
+}
+
+.div_esquerda {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btnEntrar {
+    border-radius: 2px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.1;
+    cursor: pointer;
+    height: 30px;
+}
+
+.cab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vamos {
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 0 20px 0 20px;
+    font-family: "Netflix Sans", NetflixSansBold;
+    font-size: 1.2em;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.email {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.txtemail {
+    /* trouble */
+    padding: 17px 200px 17px 5px;
+
+
+}
+
+.assistir {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    ;
+    display: flex;
+    justify-content: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.assista {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.textao {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: "Netflix Sans", NetflixSansBold;
+}
+
+
+.price {
+    background-color: white;
+    width: 100%;
+    padding: 8px;
+    margin: 0;
+
+}
+
+.txtprice {
+    font-size: 18px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.novo {
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-right: 9px;
+    font-family: "Netflix Sans", NetflixSansBold;
+}
+
+.valor {
+    font-family: "Netflix Sans", NetflixSansBold;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+.saiba {
+    color: rgb(60, 60, 255);
+    font-family: "Netflix Sans", NetflixSansBold;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 1px;
+}
